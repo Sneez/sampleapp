@@ -7,6 +7,14 @@ To run:
 
 Download XAMPP, npm, composer
 
+Run XAMPP and navigate to localhost/phpmyadmin
+
+Create a password in phpmyadmin on browser, then set same password in xampp/phpmyadmin/config.inc file
+
+Create a database in phpmyadmin on browser (I named mine 'basicwebsite')
+
+Create file called .env in root of /sampleapp, same as .env.example file but change DB_DATABASE, DB_USERNAME, and DB_PASSWORD to your settings.
+
 Clone this into xampp/htdocs/sampleapp
 
 Run 'composer install', 'npm install', 'npm run dev'
